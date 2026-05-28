@@ -16,5 +16,7 @@ jobs:
         uses: SonarSource/sonarcloud-github-action@master
         env:
           SONAR_TOKEN: 2c0f6a4048d2e2e920c080669ed5ca9e8067abc1
-          SONAR_PROJECT_KEY: DZ-Sim_Assignment-2_Sonarqube_OWASP-NodeGoat
-          SONAR_ORGANIZATION: dz-sim
+        with:
+          args: >
+            -Dsonar.projectKey=DZ-Sim_Assignment-2_Sonarqube_OWASP-NodeGoat
+            -Dsonar.organization=dz-sim
