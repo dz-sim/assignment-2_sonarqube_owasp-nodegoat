@@ -1,4 +1,6 @@
-**
-
-!/target
-!/config/desktop
+Dockerfile
+docker-compose.yml
+.dockerignore
+.git
+.github
+.gitignore
