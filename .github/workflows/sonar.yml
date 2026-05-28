@@ -20,3 +20,4 @@ jobs:
           args: >
             -Dsonar.projectKey=DZ-Sim_Assignment-2_Sonarqube_OWASP-NodeGoat
             -Dsonar.organization=dz-sim
+            -Dsonar.branch.autoconfig.disabled=true
